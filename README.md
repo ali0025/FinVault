@@ -1,7 +1,7 @@
-# CoFINVAULT
+# FINVAULT
 
 ## Project Overview
-CoFINVAULT is a secure financial vault application that allows users to manage their accounts with basic banking operations. Users can register, authenticate, create accounts, and perform deposit/withdrawal transactions.
+FINVAULT is a secure financial vault application that allows users to manage their accounts with basic banking operations. Users can register, authenticate, create accounts, and perform deposit/withdrawal transactions.
 
 ## Key Features
 - User registration and authentication with JWT
@@ -27,7 +27,7 @@ CoFINVAULT is a secure financial vault application that allows users to manage t
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd coFINVAULT
+   cd FINVAULT
    ```
 
 2. Install dependencies:
@@ -118,7 +118,7 @@ Base URL: `http://localhost:3000/api`
 
 ## Project Structure
 ```
-coFINVAULT/
+FINVAULT/
 ├── config/
 │   └── database.js          # MongoDB connection setup
 ├── controllers/
