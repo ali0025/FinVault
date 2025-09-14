@@ -1,7 +1,7 @@
-# CoFINVAULT
+# FINVAULT
 
 ## Project Overview
-CoFINVAULT is a secure financial vault application that allows users to manage their accounts with basic banking operations. Users can register, authenticate, create accounts, and perform deposit/withdrawal transactions.
+FINVAULT is a secure financial vault application that allows users to manage their accounts with basic banking operations. Users can register, authenticate, create accounts, and perform deposit/withdrawal transactions.
 
 ## Key Features
 - User registration and authentication with JWT
@@ -23,27 +23,6 @@ CoFINVAULT is a secure financial vault application that allows users to manage t
 - npm or yarn
 - MongoDB database (local or cloud)
 
-## Installation and Setup
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd coFINVAULT
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Create `.env` file with required environment variables (see below)
-
-4. Start the server:
-   ```bash
-   npm start
-   ```
-
-The application will run on `http://localhost:3000`
-
 ## Environment Variables
 Create a `.env` file in the root directory:
 
@@ -61,6 +40,27 @@ JWT_SECRET=your-secure-jwt-secret-key
 5. Click "Connect" → "Connect your application" 
 6. Copy the connection string and replace `<password>` with your database user password
 7. Paste the connection string as `DATABASE_URL` in your `.env` file
+
+## Installation and Setup
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd FINVAULT
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create `.env` file with required environment variables (see above)
+
+4. Start the server:
+   ```bash
+   npm start
+   ```
+
+The application will run on `http://localhost:3000`
 
 ## Running the Application
 - **Start server**: `npm start`
