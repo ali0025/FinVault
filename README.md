@@ -1,7 +1,7 @@
-# FINVAULT
+# CoFINVAULT
 
 ## Project Overview
-FINVAULT is a secure financial vault application that allows users to manage their accounts with basic banking operations. Users can register, authenticate, create accounts, and perform deposit/withdrawal transactions.
+CoFINVAULT is a secure financial vault application that allows users to manage their accounts with basic banking operations. Users can register, authenticate, create accounts, and perform deposit/withdrawal transactions.
 
 ## Key Features
 - User registration and authentication with JWT
@@ -27,7 +27,7 @@ FINVAULT is a secure financial vault application that allows users to manage the
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd FINVAULT
+   cd coFINVAULT
    ```
 
 2. Install dependencies:
@@ -52,6 +52,15 @@ PORT=3000
 DATABASE_URL=mongodb+srv://username:password@cluster.mongodb.net/database-name
 JWT_SECRET=your-secure-jwt-secret-key
 ```
+
+### MongoDB Atlas Setup
+1. Go to [MongoDB Atlas](https://cloud.mongodb.com/) and create account
+2. Create a new cluster (free tier available)
+3. Create database user with username/password
+4. Add your IP address to whitelist (or use 0.0.0.0/0 for development)
+5. Click "Connect" → "Connect your application" 
+6. Copy the connection string and replace `<password>` with your database user password
+7. Paste the connection string as `DATABASE_URL` in your `.env` file
 
 ## Running the Application
 - **Start server**: `npm start`
